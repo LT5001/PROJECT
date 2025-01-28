@@ -1,0 +1,63 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+blockquote {
+    color:green;
+}
+header, main, footer {
+    padding: 10px 20px;
+    background-color:#d6ccc2
+}
+header {
+    background-color: #C5A291;
+    h1 {
+        color:#763814
+    }
+}
+p a {
+    text-decoration: none;
+}
+header h1 {
+    position: relative;
+    left: 5vw;
+    top: 0;
+    line-height: 80px;
+}
+header blockquote {
+    position:absolute;
+    right: 5vw;
+    top: 0;
+    line-height: 95px;
+}
+header nav {
+    position: relative;
+    left: 50px;
+}
+.title p {
+    font-size: x-large;
+}
+.title a {
+    font-size: large;
+    position: absolute;
+    right: 5vw;
+     color: blue;
+     border: 1px solid #0b95f1;
+     padding:10px 20px;
+     border-radius: 5px;
+}
+.teacher {
+    background-color: aliceblue;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: medium;
+}
+.student {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size:large;
+}
